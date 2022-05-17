@@ -11,7 +11,7 @@ import AddLocationSharpIcon from "@mui/icons-material/AddLocationSharp";
 import WidgetsSharpIcon from "@mui/icons-material/WidgetsSharp";
 import { Stack } from "@mui/material";
 
-const PremiumAdd = () => {
+const PremiumAdd2 = () => {
   return (
     <AdContiner>
       <Image src={premiumImg} alt="" width="500px" height="265px" />
@@ -36,14 +36,22 @@ const PremiumAdd = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
           dolor sit amet, consectetur adipiscing elit. Aliquet sed
         </MenuPlainText>
-        <MenuPlainText
-          fontSize="14px"
-          fontWidth="700"
-          style={{ margin: "8px 0px" }}
-        >
-          $ 25{" "}
-        </MenuPlainText>
-        <Stack direction="row" spacing={5}>
+        <Stack direction="row" spacing={3} sx={{ my: 1 }}>
+          <MenuPlainText fontSize="14px" fontWidth="500">
+            Tk 1.98
+          </MenuPlainText>
+          <MenuPlainText
+            fontSize="14px"
+            fontWidth="500"
+            style={{ textDecoration: "line-through" }}
+          >
+            Tk 2.86
+          </MenuPlainText>
+          <MenuPlainText fontSize="14px" fontWidth="900">
+            19% OFF
+          </MenuPlainText>
+        </Stack>
+        <Stack direction="row" spacing={3}>
           <MenuPlainButtonContainer>
             <WidgetsSharpIcon sx={{ fontSize: "10px" }} />
             <MenuPlainText fontSize="10px">All Categori</MenuPlainText>
@@ -58,4 +66,4 @@ const PremiumAdd = () => {
   );
 };
 
-export default PremiumAdd;
+export default PremiumAdd2;

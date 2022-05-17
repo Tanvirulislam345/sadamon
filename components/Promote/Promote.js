@@ -7,7 +7,7 @@ import { MenuPlainText } from "../Layout/Layout.Styles";
 
 const Promote = () => {
   return (
-    <AdContiner>
+    <AdContiner color="#D4D8E3">
       <Image src={premiumImg} alt="" width="500px" height="265px" />
 
       <Stack sx={{ px: 5, py: 2 }} spacing={2}>

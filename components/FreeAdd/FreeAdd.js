@@ -12,7 +12,7 @@ import WidgetsSharpIcon from "@mui/icons-material/WidgetsSharp";
 
 const FreeAdd = () => {
   return (
-    <AdContiner style={{ display: "flex" }}>
+    <AdContiner style={{ display: "flex" }} color="#ffffff">
       <Grid container spacing={3}>
         <Grid item xs={4}>
           <Image src={freeAdd} alt="" />
